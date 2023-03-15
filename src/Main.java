@@ -68,8 +68,9 @@ public class Main {
     public static void task7() {
         System.out.println("Задача 7");
         for (int i = 1; i <= 512; i = i * 2) {
-            System.out.println(i);
+            System.out.print(i + " ");
         }
+        System.out.println();
     }
 
     /*
@@ -88,10 +89,10 @@ public class Main {
 
     public static void task8() {
         System.out.println("Задача 8");
-        int mothReplenishment = 29_000;
+        int monthReplenishment = 29_000;
         int total = 0;
         for (int i = 1; i <= 12; i++){
-            total=total+mothReplenishment;
+            total=total+monthReplenishment;
             System.out.println("Месяц " + i + " Сумма накоплений равна:" + total + " рублей");
         }
     }
