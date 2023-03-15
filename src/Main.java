@@ -60,8 +60,9 @@ public class Main {
     public static void task6() {
         System.out.println("Задача 6");
         for (int i = 7; i <= 98; i = i + 7) {
-            System.out.println(i);
+            System.out.print(i + " ");
         }
+        System.out.println();
     }
 
     public static void task7() {
